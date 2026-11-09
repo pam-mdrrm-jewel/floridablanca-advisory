@@ -1,0 +1,25 @@
+{
+  "id": "./",
+  "name": "Advisory Poster Generator — MDRRMO Floridablanca",
+  "short_name": "MDRRMO Posters",
+  "description": "Advisory poster generators for the Municipality of Floridablanca, Pampanga.",
+  "lang": "en-PH",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#00158b",
+  "theme_color": "#00158b",
+  "categories": ["utilities", "productivity"],
+  "icons": [
+    { "src": "assets/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "assets/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "assets/icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Heat Index", "url": "pages/heat-index.html", "icons": [{ "src": "assets/img/icon-heat.png", "sizes": "180x180", "type": "image/png" }] },
+    { "name": "Rainfall Advisory", "url": "pages/rainfall-advisory.html", "icons": [{ "src": "assets/img/icon-rainfall.png", "sizes": "180x180", "type": "image/png" }] },
+    { "name": "Thunderstorm Advisory", "url": "pages/thunderstorm-advisory.html", "icons": [{ "src": "assets/img/icon-thunderstorm.png", "sizes": "180x180", "type": "image/png" }] },
+    { "name": "Heavy Rainfall Warning", "url": "pages/heavy-rainfall-warning.html", "icons": [{ "src": "assets/img/icon-heavyrain.png", "sizes": "180x180", "type": "image/png" }] }
+  ]
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Advisory Poster Generator — MDRRMO Floridablanca</title>
+<meta name="description" content="Advisory poster generators for the Municipality of Floridablanca, Pampanga.">
+<meta name="theme-color" content="#00158b">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="assets/img/mdrrmo.png">
+<link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="MDRRMO Posters">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Albert+Sans:wght@400;500;600;700&family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/app.css">
+</head><body>
+<main class="page">
+ <section class="brand">
+  <div class="logos"><img src="assets/img/floridablanca.png" alt="Municipality of Floridablanca"><img class="main" src="assets/img/mdrrmo.png" alt="MDRRMO"><img src="assets/img/arangkada.png" alt="Arangkada"></div>
+  <div class="copy"><h1>MDRRMO<br>Floridablanca</h1><p>Advisory poster generators for the Municipality of Floridablanca, Pampanga.</p></div>
+  <div class="foot"><strong>MDRRMO</strong> — Municipality of Floridablanca, Pampanga<br>Heat Index, Rainfall, Thunderstorm, Heavy Rainfall &amp; Cyclone Bulletin Posters</div>
+ </section>
+ <section class="panel"><div class="wrap">
+  <h2>Choose a poster</h2><p class="lead">Pick an advisory to fill in, preview, and download.</p>
+  <div class="meta"><div class="status" id="status" role="status" aria-live="polite"><i></i><span id="statusText">Online</span></div><button class="recent" id="recentBtn" type="button">Recent</button></div>
+  <a class="tile" href="pages/heat-index.html"><div class="chip" style="background:linear-gradient(135deg,#ff2525,#ff7a00)" aria-hidden="true">🌡️</div><div><b>Heat Index</b><span>Actual and PAGASA iHeatMap readings</span></div><i class="go" aria-hidden="true">→</i></a>
+  <a class="tile" href="pages/rainfall-advisory.html"><div class="chip" style="background:linear-gradient(135deg,#00a8f5,#1a0fb0)" aria-hidden="true">🌧️</div><div><b>Rainfall Advisory</b><span>Weather system, headline, and map</span></div><i class="go" aria-hidden="true">→</i></a>
+  <a class="tile" href="pages/thunderstorm-advisory.html"><div class="chip" style="background:linear-gradient(135deg,#ff69c0,#6a1cf0)" aria-hidden="true">⛈️</div><div><b>Thunderstorm Advisory</b><span>Headline and map</span></div><i class="go" aria-hidden="true">→</i></a>
+  <a class="tile" href="pages/heavy-rainfall-warning.html"><div class="chip" style="background:linear-gradient(135deg,#ffd400,#dc143c)" aria-hidden="true">⚠️</div><div><b>Heavy Rainfall Warning</b><span>Yellow, orange or red level, weather system, and map</span></div><i class="go" aria-hidden="true">→</i></a>
+  <a class="tile" href="pages/tropical-cyclone-bulletin.html"><div class="chip" style="background:linear-gradient(135deg,#00a8f5,#0a1478)" aria-hidden="true">🌀</div><div><b>Tropical Cyclone Bulletin</b><span>Name, bulletin details, satellite background, and track map</span></div><i class="go" aria-hidden="true">→</i></a>
+  <button class="install" id="installBtn" type="button">⬇ Install app</button>
+  <div class="ios-hint" id="iosHint">To install on iPhone: tap <b>Share</b>, then <b>Add to Home Screen</b>.<button id="iosClose" type="button" aria-label="Dismiss">×</button></div>
+  <p class="note">Developed by: <b>JEWEL TIMPUG</b>. <span class="ver">· v1.2.0</span></p>
+  <noscript><p class="note">Please enable JavaScript to use the poster generators.</p></noscript>
+ </div></section>
+</main>
+<div class="toast" id="toast" role="status"><span>New version ready</span><button id="toastBtn" type="button">Refresh</button></div>
+<script src="assets/js/app.js" defer></script>
+<script src="assets/js/tools.js" defer></script>
+</body></html>
